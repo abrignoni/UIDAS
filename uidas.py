@@ -65,7 +65,7 @@ def symm_diff(file1,file2):
 
 	with open('symmetric_diff.txt','a') as f:
 		resultsymmdiff = set1.symmetric_difference(set2)
-		print('Items after symmetric diference: ' + str(len(resultsymmdiff)))
+		print('Items after symmetric difference: ' + str(len(resultsymmdiff)))
 		for line in resultsymmdiff:
 			f.write(line+' \n')
 
@@ -80,7 +80,7 @@ def difference(file1,file2):
 
 	with open('difference_file1_to_file2.txt','a') as f:
 		resultsdifference1 = set1.difference(set2)
-		print('Items after diference file 1 - file 2: ' + str(len(resultsdifference1)))
+		print('Items after difference file 1 - file 2: ' + str(len(resultsdifference1)))
 		for line in resultsdifference1:
 			f.write(line+' \n')
 
@@ -89,7 +89,7 @@ def difference(file1,file2):
 
 	with open('difference_file2_to_file1.txt','a') as f:
 		resultsdifference2 = set2.difference(set1)
-		print('Items after diference file 2 - file 1: ' + str(len(resultsdifference2)))
+		print('Items after difference file 2 - file 1: ' + str(len(resultsdifference2)))
 		for line in resultsdifference2:
 			f.write(line+' \n')
 print ()
