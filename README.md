@@ -7,7 +7,7 @@ Script will take 2 provided text files and provided the Union, Intersection, Dif
 
 Quick summary of methods where x = file1 and y = file2:
 * Union = Return a set that contains all items from both sets, duplicates are excluded.
-* Symmetric Difference = Return a set that contains all items from both sets, duplicates are excluded.
+* Symmetric Difference = Return a set that contains all items from both sets, except items that are present in both sets.
 * Difference = Return a set that contains the items that only exist in set x, and not in set y.
 * Intersection = Return a set that contains the items that exist in both set x, and set y.
 
