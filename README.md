@@ -3,7 +3,7 @@ Union, Intersection, Difference, and Symmetric Difference of the per line conten
 
 ![alt text](# iOS-Mobile-Installation-Logs-Parser 
 
-![alt text]("images/Screen Shot 2019-12-09 at 7.43.28 PM.png" "Usage example")
+![alt text](images/Screen Shot 2019-12-09 at 7.43.28 PM.png "Usage example")
 
 Script parses all the logs in the /private/var/installd/Library/Logs/MobileInstalation/*.log*
 
